@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>RepairMatch MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Electro-Repair Matching</h1>
+        <p>Reparieren statt Wegwerfen – Finde dein Ersatzteil oder Experten.</p>
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="deviceInput" placeholder="Welches Gerät ist defekt? (z.B. iPhone)">
+            <button onclick="searchRepair()">Lösung finden</button>
+        </section>
+
+        <section id="results">
+            <h2>Verfügbare Hilfe in deiner Nähe:</h2>
+            <div id="resultsList">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
