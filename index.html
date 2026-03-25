@@ -2,25 +2,63 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>RepairMatch MVP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart-Repair-Matching</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Electro-Repair Matching</h1>
-        <p>Reparieren statt Wegwerfen – Finde dein Ersatzteil oder Experten.</p>
+        <p>Finde den passenden Service für dein defektes Gerät.</p>
     </header>
 
     <main>
-        <section id="search">
-            <input type="text" id="deviceInput" placeholder="Welches Gerät ist defekt? (z.B. iPhone)">
-            <button onclick="searchRepair()">Lösung finden</button>
+        <section id="search-box">
+            <div class="filter-group">
+                <label for="categorySelect">Kategorie:</label>
+                <select id="categorySelect" onchange="updateSubcategories()">
+                    <option value="">Bitte wählen...</option>
+                    <option value="Handy">Handy</option>
+                    <option value="Laptop">Laptop</option>
+                    <option value="Fernseher">Fernseher</option>
+                    <option value="Computer">Computer</option>
+                    <option value="Kopfhörer">Kopfhörer</option>
+                    <option value="Weiteres">Weiteres</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="deviceSelect">Genaues Modell:</label>
+                <select id="deviceSelect" disabled>
+                    <option value="">Zuerst Kategorie wählen...</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="serviceSelect">Art des Services:</label>
+                <select id="serviceSelect">
+                    <option value="">Bitte wählen...</option>
+                    <option value="Reparatur">Reparatur</option>
+                    <option value="Reinigung">Reinigung</option>
+                    <option value="Tausch">Tausch</option>
+                </select>
+            </div>
+
+             <div class="filter-group">
+                <label for="locationSelect">Ort (optional):</label>
+                <select id="locationSelect">
+                    <option value="">Alle Orte (Ganze Schweiz)</option>
+                    </select>
+            </div>
+
+            <button onclick="searchShops()">Shops finden</button>
         </section>
 
         <section id="results">
-            <h2>Verfügbare Hilfe in deiner Nähe:</h2>
+            <h2>Verfügbare Partner-Shops:</h2>
             <div id="resultsList">
-                </div>
+                <p>Bitte wähle dein Gerät und den gewünschten Service aus, um lokale Shops zu finden.</p>
+            </div>
         </section>
     </main>
 
