@@ -15,11 +15,11 @@ Dieses Repository enthält den ersten funktionalen Prototypen für eine Plattfor
 
 Basierend auf den Prinzipien des guten Designs wurden folgende Anforderungen für die Weiterentwicklung präzisiert:
 
-* **Intuitive Navigation:** Die Benutzeroberfläche muss so einfach sein, dass Nutzer ohne technische Vorkenntnisse innerhalb von zwei Klicks ein passendes Ersatzteil oder einen Experten finden.
-* **Ehrlichkeit & Transparenz:** Das System zeigt nur real verfügbare Ersatzteile von lokalen Partnern an, um falsche Erwartungen zu vermeiden.
-* **Umweltfreundlichkeit als Kern:** Jedes Suchergebnis soll die potenzielle CO2-Ersparnis anzeigen, wenn das Gerät repariert statt neu gekauft wird.
-* **Langlebigkeit der Plattform:** Die Datenstruktur wird so modular aufgebaut, dass künftig auch andere Stoffflüsse (z.B. Haushaltsgeräte oder Werkzeuge) integriert werden können.
-* **Reduktion auf das Wesentliche:** Verzicht auf störende Werbung oder unnötige Pop-ups, um den Fokus rein auf den "Slow"-Flow der Kreislaufwirtschaft zu lenken.
+- [ ] **Intuitive Navigation:** Die Benutzeroberfläche muss so einfach sein, dass Nutzer ohne technische Vorkenntnisse innerhalb von zwei Klicks ein passendes Ersatzteil oder einen Experten finden.
+- [ ] **Ehrlichkeit & Transparenz:** Das System zeigt nur real verfügbare Ersatzteile von lokalen Partnern an, um falsche Erwartungen zu vermeiden.
+- [ ] **Umweltfreundlichkeit als Kern:** Jedes Suchergebnis soll die potenzielle CO2-Ersparnis anzeigen, wenn das Gerät repariert statt neu gekauft wird.
+- [ ] **Langlebigkeit der Plattform:** Die Datenstruktur wird so modular aufgebaut, dass künftig auch andere Stoffflüsse (z.B. Haushaltsgeräte oder Werkzeuge) integriert werden können.
+- [ ] **Reduktion auf das Wesentliche:** Verzicht auf störende Werbung oder unnötige Pop-ups, um den Fokus rein auf den "Slow"-Flow der Kreislaufwirtschaft zu lenken.
 ## Technische Umsetzung
 * **Technologien:** HTML, CSS und JavaScript.
 * **Deployment:** Veröffentlicht über GitHub Pages.
