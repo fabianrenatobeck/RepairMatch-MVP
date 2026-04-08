@@ -34,7 +34,6 @@ Basierend auf den Prinzipien des guten Designs wurden folgende Anforderungen fü
   * *Fokus:* Ist die Fehlermeldung klar und wie geht der User weiter vor?
 
 ## 2. & 3. Beobachtungen
-*(Durchführung mit 2 Personen, ohne Eingreifen)*
 * **Zu Test 1:** User versuchte zuerst das gesperrte "Modell"-Feld zu klicken, was kurz irritierte. Sobald die Kategorie gewählt war, lief der Rest fehlerfrei. Das Alert-Pop-up wurde sofort als Erfolg verstanden.
 * **Zu Test 2:** User verstand das leere Resultat sofort. Das manuelle Ändern des Ortes auf "Alle Orte" (inkl. Scrollen und neuem Klick auf "Suchen") wirkte jedoch umständlich.
 
